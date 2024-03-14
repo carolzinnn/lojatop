@@ -1,0 +1,78 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para a seção de destaque */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #f5f5f5;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    color: #333;
+}
+
+.hero-text p {
+    font-size: 24px;
+    color: #666;
+}
+
+.hero-text button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Estilos para a seção de produtos em destaque */
+.featured-products {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.featured-products .product {
+    width: 30%;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+
+    model {
+        align-items: end;
+height: min-content;
+    }
